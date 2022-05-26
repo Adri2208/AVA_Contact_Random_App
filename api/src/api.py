@@ -70,9 +70,10 @@ def populate_tables():
         new_contact = Contact(firstname, lastname, number, email, picture)
         db.session.add(new_contact)
     db.session.commit()
-        
-if __name__ == "__main__":
-    # db.drop_all()
-    # db.create_all()
-    # populate_tables()
+
+def runApp():
+    db.drop_all()
+    db.create_all()
+    populate_tables()
     app.run(host="0.0.0.0", port=8080, debug=True)
+    return()

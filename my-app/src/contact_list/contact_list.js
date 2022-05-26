@@ -34,9 +34,9 @@ export default function ContactList() {
         const id = user.id;
         const route = "/contacts/" + id;
         return (
-            <li>
+            <div>
                 <Link to={route}><ContactItem data={user} /></Link>
-            </li>
+            </div>
         );
     });
 

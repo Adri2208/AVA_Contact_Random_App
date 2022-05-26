@@ -3,11 +3,17 @@ import Router from './Router'
 
 function App() {
   return (
-    <div className="App">
+    <body>
       <header className="App-header">
-        <Router/>
+        <h1>Application Contact</h1>
+        <h2>By</h2>
+        <h3>Adrian Boyer and Victor Bonnafous</h3>
       </header>
-    </div>
+
+      <div className="App">
+        <Router />
+      </div>
+    </body>
   );
 }
 
