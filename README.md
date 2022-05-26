@@ -6,7 +6,9 @@
 
 # deployment of the application
 <p>First we need to launch the flask api to be able to retrieve the data</p>
-<p>For this we need to run the <code>main.py</code> file</p>
+<p>For this you need to install the requirements.txt</p>
+<pre><code>pip install -r requirements.txt </code></pre>
+<p>And know you need to run the <code>main.py</code> file
 <p>After that we go in our terminal to the <code>my-app</code> folder and launch the react application</p>
 <pre><code>cd my-app </code>
 <code>npm start</code></pre>
